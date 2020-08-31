@@ -1,0 +1,151 @@
+.container{
+    background-color: white;
+    width:1000px;
+    height: auto;
+    margin: auto;
+}
+
+body{
+    background-color: rgba(168, 179, 255,1);
+    margin: 0 auto;
+    
+}
+.ta1{
+    color:rgb(223, 251, 231);
+    background-color:rgb(74, 211, 188)
+}
+h1 { font-family: "Arial Narrow", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Arial Narrow", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Arial Narrow", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Arial Narrow", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Arial Narrow", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+
+   
+
+.copy{
+   background-color: black;
+    font-size: 10px;
+    color:white ;
+    margin:auto;
+    padding:33px;
+    text-align: center
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+  
+
+}
+/* Style the search field */
+.example  {
+    
+    float: right;
+  padding: 30px;
+  }
+  
+  /* Style the submit button */
+
+.example button:hover {
+    background: #0b7dda;
+  }
+  
+.logo{
+    float: left;
+    padding: 15px;
+}
+  .clearfix{
+      clear: both;
+  }
+  .main-nav{
+      background-color: crimson;
+  }
+  .main-nav >ul{
+      margin: 0px;
+      padding: 0px;
+      list-style-type:none;
+  }
+  .main-nav >ul>li{
+      display: inline-block;
+  }
+  .main-nav >ul>li>a{
+      color: whitesmoke;
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+       font-family: 'Playfair Display', serif;
+       font-size: 36px;
+  }
+  .main-nav >ul>li>a:hover{
+      background-color: orange;
+  }
+  .service{
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      display: none;
+     z-index: 999; 
+  }
+  .service > li{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+     font-family: 'Playfair Display', serif;
+     font-size: 36px;
+     background-color:black;
+
+  }
+  .service > li>a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+     font-family: 'Playfair Display', serif;
+     font-size: 22px;
+  } 
+  .service > li>a:hover{
+      background-color: orange;
+  }
+  .main-nav >ul>li:hover   .service{
+      display:block;
+  }
+  .banner{
+      width: 1000px;
+      height: 666.66px;
+      overflow: hidden;
+  }
+  .banner img{
+      width: 100%;
+      height: auto;
+  }
+  .footer{
+      background-color: black;
+      color: ghostwhite;
+    padding: 25px;
+  }
+.footer>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none; 
+    padding: 66px;
+}
+.footer>ul>li{
+    display: inline-block;
+  
+}
+.footer>ul>li>a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.terms{
+    float: left;
+}
+.visit{
+    float:right;
+}
